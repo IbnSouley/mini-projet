@@ -1,0 +1,62 @@
+.top-navbar{
+    justify-content: space-between;
+}
+ .nav-item .nav-link{
+    color: white;
+    transition: 0.5s ease;
+ }
+ .nav-item .nav-link:hover{
+    color: yellow;
+ }
+ .dropdown menu li a{
+    color: white;
+    transition: 0.5s ease;
+ }
+ .dropdown li a:hover{
+    background-color: black;
+    color: yellow;
+ }
+ ul li{
+    list-style-type: none;
+ }
+ ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+/* chargeur */
+.headline h2::before{
+   content: '';
+   width: 50%;
+   height: 0.125rem;
+   background-color: blue;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 0.625rem;
+}
+.product-list .product-image img{
+   transition: all 500ms ease-in-out;
+}
+.product-list .product-image .product-image-secondary{
+   opacity: 0;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+}
+.product-list .product-image:hover .product-image-secondary{
+   opacity: 1;
+}
+.form-signup{
+   margin: 0 auto;
+   max-width: 400px;
+}
+.form-group a{
+   text-decoration: none;
+}
+
